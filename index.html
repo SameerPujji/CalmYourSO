@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>SO Mad?</title>
+
+    <!-- Bootstrap core CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet" />
+
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <header class="masthead text-center text-white">
+      <div class="masthead-content">
+        <div class="container">
+          <h1 class="masthead-heading mb-0">
+            Is your significant other mad at you?
+          </h1>
+          <br />
+          <br />
+          <br />
+          <br />
+          <h2 class="masthead-subheading mb-0">
+            Generate a cute name to call them and calm them down!
+          </h2>
+          <br />
+          <br />
+          <br />
+          <br />
+          <h5 style="display:inline;">
+            Enter the length of the cute name you want (1-5):
+          </h5>
+          <input
+            type="text"
+            class="form-control roundedTB"
+            id="length"
+            placeholder="1-5"
+          />
+          <br />
+          <br />
+          <br />
+          <center>
+            <input
+              type="text"
+              placeholder="Cute name"
+              id="cuteName"
+              value=""
+              class="outputTB"
+              readonly
+            />
+            <button onclick="copyName()" class="btn btn-primary">
+              Copy name
+            </button>
+          </center>
+
+          <a
+            onclick="generateName()"
+            class="btn btn-primary btn-xl rounded-pill mt-5"
+          >
+            Generate
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-black">
+      <div class="container">
+        <p class="m-0 text-center text-white small">
+          Copyright &copy; Calm SO 2019
+        </p>
+        <p class="m-0 text-center text-white small">
+          Made using the One Page Wonder template from startbootstrap.com
+        </p>
+      </div>
+      <!-- /.container -->
+    </footer>
+  </body>
+</html>
